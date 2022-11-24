@@ -21,8 +21,8 @@ html {
 }
 
 .child-div figure img {
-  width: 10rem;
-  height: 8rem;
+  width: 30rem;
+  height: 15rem;
 }
 
 .child-div figure figcaption {
@@ -68,7 +68,7 @@ input {
   margin-bottom: 0.7rem;
   margin-left: 1rem;
   min-width: 40rem;
-  background: blue;
+  background: grey;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +78,7 @@ input {
 .fa-edit {
   cursor: pointer;
   pointer-events: auto;
-  color: rgb(251, 251, 251);
+  color: red;
   font-size: 2rem;
 }
 
