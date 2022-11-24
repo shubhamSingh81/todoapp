@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
 }
 
 html {
@@ -30,7 +29,6 @@ html {
   color: #fff;
   font-size: 2.2rem;
   padding-top: 2rem;
-  text-transform: capitalize;
 }
 
 input {
@@ -38,19 +36,11 @@ input {
   height: 3.4rem;
   padding: 2rem 1.2rem;
   font-size: 1.8rem;
-  line-height: 1.42857143;
   margin-top: 2rem;
   color: rgb(58, 57, 57);
-  background-color: #fff;
   background-image: none;
   border: 0.1rem solid #ccc;
   border-radius: 0.4rem;
-}
-
-.todo-btn {
-  width: 5rem;
-  display: flex;
-  justify-content: space-around;
 }
 
 .fa {
@@ -58,7 +48,6 @@ input {
   cursor: pointer;
   pointer-events: auto;
   z-index: 10;
-  background-color: #fff;
   background-image: none;
   color: #666;
   font-size: 2rem;
@@ -68,41 +57,32 @@ input {
   color: rgb(47, 214, 122);
 }
 
-.fa-plus:before {
-  content: "\f067";
-  font-size: 1.5rem;
-}
-
 .showItems {
   margin-top: 3rem;
   text-align: center;
 }
 
 .eachItem {
-  background: #fff;
   padding: 1.2rem 1rem;
   border-radius: 0.5rem;
   margin-bottom: 0.7rem;
   margin-left: 1rem;
   min-width: 40rem;
-  word-break: break-word;
-  background: rgb(85, 41, 220);
+  background: blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.fa-trash-alt,
+/* Delete button */
+.fa-trash-alt, 
 .fa-edit {
   cursor: pointer;
   pointer-events: auto;
-  z-index: 10;
   color: rgb(251, 251, 251);
   font-size: 2rem;
 }
 
 .btn {
-  letter-spacing: 0.1em;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;

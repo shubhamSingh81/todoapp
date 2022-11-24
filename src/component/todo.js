@@ -40,7 +40,7 @@ const Todo = () => {
                             value={inputData}
                             onChange={(e) => setInputData(e.target.value)}
                         />
-                        <i className='fa fa-plus add+btn' title='Add Item' onClick={addItem}>➕</i>
+                        <i className='fa fa-plus' title='Add Item' onClick={addItem}></i>
                     </div>
 
                     <div className='showItems'>
@@ -49,7 +49,7 @@ const Todo = () => {
                                 return (
                                     <div className='eachItem' key={ind}>
                                         <h3>{elem}</h3>
-                                        <i className='far fa-trash-alt add-btn' title='Delete Item' onClick={() => deleteItem(ind)}>🔴</i>
+                                        <i className='far fa-trash-alt' title='Delete Item' onClick={() => deleteItem(ind)}></i>
                                     </div>
                                 )
                             })
@@ -57,10 +57,9 @@ const Todo = () => {
                     </div>
 
                     <div className='showItems'>
-                        <button className='btn effect04' data-sm-link="Remove All" onClick={removeAll}> <span>RemoveAll</span></button>
+                        <button className='btn' data-sm-link="Remove All" onClick={removeAll}> <span>RemoveAll</span></button>
                     </div>
                 </div>
-
             </div>
         </>
     )
